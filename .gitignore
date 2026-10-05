@@ -1,0 +1,5 @@
+# Secrets & generated files
+.env
+**/.env
+**/vendor/
+**/chunks.json

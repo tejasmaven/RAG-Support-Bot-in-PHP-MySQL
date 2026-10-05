@@ -1,0 +1,19 @@
+[
+  { "question": "How long do refunds take?",
+    "expect_source": "refund-policy.md", "should_answer": true,
+    "expect_contains": "5" },
+
+  { "question": "I was charged twice, can I get my money back?",
+    "expect_source": "refund-policy.md", "should_answer": true,
+    "expect_contains": "duplicate" },
+
+  { "question": "How do I create an account?",
+    "expect_source": "getting-started.md", "should_answer": true,
+    "expect_contains": "Sign Up" },
+
+  { "question": "What's the weather in Mumbai today?",
+    "expect_source": null, "should_answer": false, "expect_contains": null },
+
+  { "question": "Do you offer refunds in cryptocurrency?",
+    "expect_source": null, "should_answer": false, "expect_contains": null }
+]
